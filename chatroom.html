@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chat App</title>
+<link rel="stylesheet" href="asset/css/styles.css">
+</head>
+<body>
+
+<div class="chat-app">
+  <div class="chat-sidebar">
+    <h2 id="chatroom-header">Chat App</h2>
+    <div class="room-info">
+      <p id="roomname"><strong>Room name:</strong></p> 
+        <p>Full Stack II</p>
+      <p><strong>Members:</strong></p>
+      <ul>
+        <li class="list">User 1</li>
+        <li class="list">User 1</li>
+      </ul>
+    </div>
+    <button class="leave-room">Leave Room</button>
+  </div>
+  
+  <div class="chat-main">
+    <div class="chat-messages">
+      <!-- Repeat this div for each message in the chat -->
+      <div class="message">
+        <p class="meta">chat app admin <span>9:12pm</span></p>
+        <p class="text">Welcome to chat app :)</p>
+      </div>
+      <div class="message">
+        <p class="meta">chat app admin <span>9:12pm</span></p>
+        <p class="text">User 1 just joined the chat!</p>
+      </div>
+      <div class="message">
+        <p class="meta">chat app admin <span>9:12pm</span></p>
+        <p class="text">User 2 just joined the chat!</p>
+      </div>
+      <div class="message">
+        <p class="meta">User 1<span>9:12pm</span></p>
+        <p class="text">Hey There!</p>
+      </div>
+      <div class="message">
+        <p class="meta">User 2<span>9:12pm</span></p>
+        <p class="text">Hello There!</p>
+      </div>
+      <!-- ... other messages -->
+    </div>
+    <div class="message-input">
+      <input type="text" placeholder="Enter your message here...">
+      <button class="send">Send</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
